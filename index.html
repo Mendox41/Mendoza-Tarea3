@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>CV</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
+  <link rel="stylesheet" href="styles/estilo.css">
+  <script src="js/animation.js" defer></script>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Source+Code+Pro:wght@400;600;800&display=swap" rel="stylesheet">
+</head>
+
+<body>
+  <nav class="navbar navbar-expand-md navbarper">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="#">
+        <div class="iconoper">TM</div>
+      </a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbar-toggler"
+        aria-controls="navbarTogglerDemo01" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbar-toggler">
+        <ul class="navbar-nav d-flex justify-content-center align-items-center">
+          <li class="nav-item">
+            <a class="nav-link navlinkper" aria-current="page" href="#">Inicio</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link navlinkper" href="pages/habilidades.html">Habilidades</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link navlinkper" href="pages/contacto.html">Contacto</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <section class="hero align-items-stretch">
+    <div class="hero-principal d-flex flex-column justify-content-center align-items-center">
+      <img class="hero-imagen-perfil" src="img/TomasM.JPG" alt="">
+      <h1 id="titulo">Tomas Mendoza</h1>
+    </div>
+  </section>
+
+  <section>
+    <div class="accordionper accordion" id="accordionExample">
+      <div class="accordion-item-per accordion-item">
+        <h2 class="accordion-header">
+          <button class="accordion-button-per accordion-button" type="button" data-bs-toggle="collapse"
+            data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+            Sobre m&iacute;
+          </button>
+        </h2>
+        <div id="collapseOne" class="accordion-collapse collapse show" data-bs-parent="#accordionExample">
+          <div class="accordion-body">
+            <p>Soy un Estudiante de Programacion de Computadoras de 20 a&ntilde;os.
+              Me considero una persona Analitica, Trabajadora y Persistente.
+              Buscando nuevas experiencias laborales.</p>
+          </div>
+        </div>
+      </div>
+      <div class="accordion-item">
+        <h2 class="accordion-header">
+          <button class="accordion-button-per accordion-button collapsed" type="button" data-bs-toggle="collapse"
+            data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+            Experiencia laboral
+          </button>
+        </h2>
+        <div id="collapseThree" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+          <div class="accordion-body">
+            <h3>Soporte de Sistemas</h3>
+            <p class="resaltado"><strong>Entelequia</strong> | Noviembre 2022 &ndash; Actualidad</p>
+            <p>Soy un empleado en el area de soporte del Call Center y me encargo de administrar toda el area de
+              Sistemas, y sus servicios.</p>
+          </div>
+        </div>
+      </div>
+      <div class="accordion-item">
+        <h2 class="accordion-header">
+          <button class="accordion-button-per accordion-button collapsed" type="button" data-bs-toggle="collapse"
+            data-bs-target="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
+            Formaci&oacute;n acad&eacute;mica
+          </button>
+        </h2>
+        <div id="collapseFour" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+          <div class="accordion-body">
+            <h3>Estudios</h3>
+            <h4>Instituto Santa Ana y San Joaquin</h4>
+            <p><i>Bachiller con orientaci&oacute;n en Artes: M&uacute;sica</i> | 2015 &ndash; 2020</p>
+            <h4>Universidad de Belgrano</h4>
+            <p><i>Tecnicatura Universitaria en Programaci&oacute;n de Computadoras</i> | 2022 &ndash; Actualidad</p>
+            <hr>
+
+            <h3>Cursos Realizados</h3>
+
+            <h4>Curso de programaci&oacute;n de lenguaje C</h4>
+            <p><i>Curso de programcion basica en el leguaje C en la Universidad de Belgrano (20 horas)</i> | 2022
+              &ndash; 2022</p>
+
+            <h4>Manejo de Ofim&aacute;ticas &ndash; Windows: Word.</h4>
+            <p><i>Certificado de Inform&aacute;tica: Menci&oacute;n Magna Cum Laude, Word en su nivel Junior &ndash;
+                Universidad Tecnol&oacute;gica Nacional</i> | 2015 &ndash; 2015 </p>
+
+            <h4>Manejo de Ofim&aacute;ticas &ndash; Windows: Power Point.</h4>
+            <p><i>Certificado de Inform&aacute;tica: Power Point en su nivel Fundamentos &ndash; Universidad
+                Tecnol&oacute;gica Nacional.</i> | 2014 &ndash; 2014</p>
+
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <footer class="footerper d-flex flex-column align-items-center justify-content-center">
+
+  </footer>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe"
+    crossorigin="anonymous"></script>
+</body>
+
+</html>
